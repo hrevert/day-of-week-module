@@ -14,10 +14,16 @@ class Day extends AbstractValidator
      * @var array
      */
     protected $messageTemplates = [
-        self::INVALID       => 'Invalid type given. String or integer expected',
+        self::INVALID       => 'Invalid type given. String or integer or instance of Hrevert\Day\Day expected',
         self::INVALID_DAY   => 'Invalid Day.',
     ];
 
+
+    /**
+     * @param mixed $value
+     *
+     * @return bool
+     */
     public function isValid($value)
     {
         if ($value instanceof DayEntity) {
