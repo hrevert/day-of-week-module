@@ -1,0 +1,41 @@
+{
+    "name": "hrevert/ht-day-module",
+    "description": "Zend Framework 2 integration for day-of-week library",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "module",
+        "zendframework",
+        "hrevert",
+        "day",
+        "day-of-week",
+        "datetime"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/hrevert/day-of-week-module",
+    "authors": [
+        {
+            "name": "Hrevert Technologies",
+            "email": "info@hrevert.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "hrevert/day-of-week": "dev-master",
+        "zendframework/zend-validator": "~2.2"
+    },
+    "require-dev": {
+        
+    },
+    "suggest": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "HtDayModule\\": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
