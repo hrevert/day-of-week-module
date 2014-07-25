@@ -21,7 +21,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "hrevert/day-of-week": "dev-master",
+        "hrevert/day-of-week": "0.0.*",
         "zendframework/zend-validator": "~2.2"
     },
     "require-dev": {
